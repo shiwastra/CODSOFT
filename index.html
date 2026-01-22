@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+         <nav>
+            <img src="image/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-icon" onclick="togglemenu()" id="menuIcon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+         </nav>
+         <div class="header-text">
+            <p>web developer</p>
+            <h1>Hi,I am <span>Shiwastra</span><br>from the land of white tigers </h1>
+         </div>   
+    </div>
+</div> 
+<!-----------about----------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+              <img src="image/demo4.jpg">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>My name is Shiwastra, and I am a passionate web developer. I specialised in creating responsive and user-friendly websites using modern technologies like HTML, CSS, JavaScript, and React. My journey in web development began with a curiosity about how websites are built, and it has evolved into a career where I enjoy solving problems and bringing ideas to life through coding.</p>
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skill</p>
+                    <p class="tab-links" onclick="opentab('experience')">experience</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>web developer</span><br>design and development</li>
+                        <li><span>UI/UX designer</span><br>web/app interfaces</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents"  id="experience">
+                    <ul>
+                        <li><span>jan2026 - current</span><br>internship/project program at codsoft</li>
+                        <li><span>nov2025 - dec2025</span><br>internship/project program at Influx sourcing,indore</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>school</span><br>jay jyoti school rewa(mp)</li>
+                        <li><span>college</span><br>holkar sience college indore(mp)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------servicer------------------> 
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">my services</h1>
+        <div class="services-list">
+            <div>
+                
+                <h2>web design</h2>
+                <p>Web design is the creation of websites and pages to reflect a company’s brand and information and ensure a user-friendly experience. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+               
+                <h2>UI/UX design</h2>
+                <p>UI/UX design involves creating user interfaces and experiences for digital products, focusing on usability, accessibility, and aesthetics.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <h2>App design</h2>
+                <p>App design involves creating user interfaces and experiences for mobile applications, focusing on usability, accessibility, and aesthetics.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--------------portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">my portfolio</h1>
+</div>
+<div  class="portfolio-list">
+    <div>
+        <img src="image/demo2.jpg">
+        <h2>project 1</h2>
+        <p>web design</p>
+    </div>
+    <div>
+        <img src="image/demo1.jpg">
+        <h2>project 2</h2>
+        <p>UI/UX design</p>
+    </div>
+
+</div>
+<!---------------resume----------------->
+<div id="resume">
+    <div class="container">
+        <h1 class="subtitle">my resume</h1>
+        <div class="resume-content">
+            <p>A highly analytical and tech-driven professional bridging the gap between Biological Sciences and Digital Security. Currently pursuing a BSc in Bioinformatics with a strong foundation in computational tools. Certified in Cybersecurity (ISC2) with technical proficiency in Python programming, data analytics, and web design. Dedicated to securing data-driven environments and solving complex problems through technical innovation.</p>
+            <p>I have attached my comprehensive resume below, which details my professional experience, skills, education, and accomplishments in web development. Feel free to download it for your records or to share with others.</p>
+            <div class="resume-btn-wrapper">
+                <a href="image/Shiwastra Mishra - Resume.pdf" download class="hero-btn red-btn">Download Resume</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <h1 class="subtitle">contact me</h1>
+        
+        <!-- Contact Information Section -->
+        <div class="contact-info">
+            <div class="contact-info-item">
+                <h3>📞 Phone</h3>
+                <p><a href="tel:+919999999999">+91 9999999999</a></p>
+            </div>
+            <div class="contact-info-item">
+                <h3>✉️ Email</h3>
+                <p><a href="mailto:shiwastra@gmail.com">shiwastra@gmail.com</a></p>
+            </div>
+            <div class="contact-info-item">
+                <h3>💼 LinkedIn</h3>
+                <p><a href="https://linkedin.com/in/shiwastra-mishra" target="_blank">linkedin.com/in/shiwastra</a></p>
+            </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <div class="contact-form">
+                <h2>Send me a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="your message" required></textarea>
+                    </div>
+                    <button type="submit" class="hero-btn red-btn">send message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <p>&copy; 2026 Shiwastra Mishra 😊 | All rights reserved</p>
+    </div>
+</footer>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+    
+    var sidemenu = document.getElementById("sidemenu");
+    var menuIcon = document.getElementById("menuIcon");
+    
+    function togglemenu(){
+        if(sidemenu.style.right === "-250px" || sidemenu.style.right === ""){
+            sidemenu.style.right = "0";
+            menuIcon.classList.add("active");
+        } else {
+            sidemenu.style.right = "-250px";
+            menuIcon.classList.remove("active");
+        }
+    }
+    
+    // Close menu when a link is clicked
+    var menulinks = sidemenu.getElementsByTagName("a");
+    for(var i = 0; i < menulinks.length; i++){
+        menulinks[i].addEventListener("click", function(){
+            setTimeout(function(){
+                sidemenu.style.right = "-250px";
+                menuIcon.classList.remove("active");
+            }, 300);
+        });
+    }
+    
+    // Smooth scrolling for all anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>
